@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5521b5d3-d1ac-4e75-bc8d-4a6c67b43309}</savedqueryid>
+    <layoutxml>
+      <grid name="nckr_packagecontents" jump="nckr_name" select="1" icon="1" preview="1">
+        <row name="nckr_packagecontent" id="nckr_packagecontentid">
+          <cell name="nckr_packageid" width="177" />
+          <cell name="nckr_includedsolutionid" width="183" />
+          <cell name="nckr_includedpackageid" width="170" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nckr_packagecontent">
+          <attribute name="nckr_packagecontentid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="nckr_packageid" />
+          <attribute name="nckr_includedpackageid" />
+          <attribute name="nckr_includedsolutionid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Package Content Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

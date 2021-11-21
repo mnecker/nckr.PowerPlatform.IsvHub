@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3588c001-df1a-4853-9989-dc0f22da8fbf}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d4f8a097-4aca-4d83-b4d3-bc1c05982749}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6c1627fb-ceac-4eca-b686-ed98f526eb73}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b72863c9-63f6-48f7-b9fb-d85c5c5e1494}" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nckr_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{60def83a-6dce-497f-ad46-8885c561971d}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75a69acc-b670-47a9-bcc2-9796c7698860}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Domain" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_domain" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_domain" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd332ed0-b16d-4c5d-a965-62eec73d41ab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Expires On" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_expireson" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="nckr_expireson" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

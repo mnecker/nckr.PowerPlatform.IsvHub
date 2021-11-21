@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D9BF408-5ACA-4628-924F-0FFB2B6B08E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nckr.PowerPlatform.IsvHub.Solution</RootNamespace>
+    <AssemblyName>nckr.PowerPlatform.IsvHub.Solution</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\coretools\CrmSvcUtil.exe" />
+    <Content Include="bin\coretools\CrmSvcUtil.xml" />
+    <Content Include="bin\coretools\Microsoft.ApplicationInsights.dll" />
+    <Content Include="bin\coretools\Microsoft.Crm.Sdk.Proxy.dll" />
+    <Content Include="bin\coretools\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
+    <Content Include="bin\coretools\Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll" />
+    <Content Include="bin\coretools\Microsoft.Rest.ClientRuntime.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Sdk.Deployment.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Sdk.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.Connector.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.CrmConnectControl.dll" />
+    <Content Include="bin\coretools\Microsoft.Xrm.Tooling.Ui.Styles.dll" />
+    <Content Include="bin\coretools\Newtonsoft.Json.dll" />
+    <Content Include="bin\coretools\Other Redistributable.txt" />
+    <Content Include="bin\coretools\pacTelemetryUpload.exe" />
+    <Content Include="bin\coretools\SolutionPackager.exe" />
+    <Content Include="bin\coretools\SolutionPackagerLib.dll" />
+    <Content Include="bin\coretools\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\coretools\System.ValueTuple.dll" />
+    <Content Include="package\AppModuleSiteMaps\nckr_ISVHub\AppModuleSiteMap.xml" />
+    <Content Include="package\AppModuleSiteMaps\nckr_ISVHub\AppModuleSiteMap_managed.xml" />
+    <Content Include="package\AppModules\nckr_ISVHub\AppModule.xml" />
+    <Content Include="package\AppModules\nckr_ISVHub\AppModule_managed.xml" />
+    <Content Include="package\Entities\nckr_Environment\Entity.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\card\{a2cd73ea-de08-4d2e-9067-6e4a53cbafff}.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\card\{a2cd73ea-de08-4d2e-9067-6e4a53cbafff}_managed.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\main\{19b0fd1b-7197-4d9e-99e2-a5d7a2b55add}.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\main\{19b0fd1b-7197-4d9e-99e2-a5d7a2b55add}_managed.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\quickCreate\{16223b14-efcc-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\quickCreate\{16223b14-efcc-ea11-a812-000d3a25eeb6}_managed.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\quick\{a3946280-7a3f-4d8d-bd43-3fc053b353b2}.xml" />
+    <Content Include="package\Entities\nckr_Environment\FormXml\quick\{a3946280-7a3f-4d8d-bd43-3fc053b353b2}_managed.xml" />
+    <Content Include="package\Entities\nckr_Environment\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{3ab74849-da2b-4b09-96cb-c7e147fdfd93}.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{3c24aa40-da42-44a6-9edc-eef51b848558}.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{48445090-083a-4a9f-8b47-72c0f9e04860}.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{68f2742d-bd24-40d1-9baf-7a3ecbc0be9d}.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{a976cf24-ebce-41df-a820-2a60b915ca34}.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{b508aa08-1d94-4559-83ea-3b4ea379082f}.xml" />
+    <Content Include="package\Entities\nckr_Environment\SavedQueries\{e3dfeee7-7cc3-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Login\Entity.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\card\{fe86b930-68c2-4afe-8dcd-c8ff0e8a1511}.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\card\{fe86b930-68c2-4afe-8dcd-c8ff0e8a1511}_managed.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\main\{f71b4d85-6043-4bc9-b7bc-3d49693b94e4}.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\main\{f71b4d85-6043-4bc9-b7bc-3d49693b94e4}_managed.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\quickCreate\{5e523556-cdc2-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\quickCreate\{5e523556-cdc2-ea11-a812-000d3a25eeb6}_managed.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\quick\{350eff4a-aff8-46ce-ae9c-6f7da035285d}.xml" />
+    <Content Include="package\Entities\nckr_Login\FormXml\quick\{350eff4a-aff8-46ce-ae9c-6f7da035285d}_managed.xml" />
+    <Content Include="package\Entities\nckr_Login\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{1f18b5d8-3c5b-4d87-b182-e2e76f3a2ff1}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{2503f5a2-db00-4524-93f2-70eb4ddbb280}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{54dd673e-d8b5-495c-91fe-c80db23f6328}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{662ae568-ccc2-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{7f343f57-f051-4fb9-b5bc-b3dc0e80f80b}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{9007e53e-63e7-47b9-a142-45f89a87bbf1}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{92561128-a1b1-43fb-b013-a1efb47306b5}.xml" />
+    <Content Include="package\Entities\nckr_Login\SavedQueries\{aafebe79-cdc2-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\Entity.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\card\{47b5d279-a51e-4fb4-9536-7f01f51b0f1a}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\card\{47b5d279-a51e-4fb4-9536-7f01f51b0f1a}_managed.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\main\{0ed38e03-c6fe-4fa3-a725-82d84d15c00a}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\main\{0ed38e03-c6fe-4fa3-a725-82d84d15c00a}_managed.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\quickCreate\{8bf48006-6ec6-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\quickCreate\{8bf48006-6ec6-ea11-a812-000d3a25eeb6}_managed.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\quick\{d89c9f4d-863f-4aaf-b664-12c153acac1c}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\FormXml\quick\{d89c9f4d-863f-4aaf-b664-12c153acac1c}_managed.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{01dd6998-5018-47e6-a167-e4164afc001e}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{328c9687-8041-4782-bc9c-85347a1cd4b3}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{5521b5d3-d1ac-4e75-bc8d-4a6c67b43309}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{5c0b5719-83ee-418f-a09d-edfc4e3ff1e9}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{7a4739f7-6ac6-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{bc85fbed-ec3d-4ef7-a949-87af0b22c27b}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{c1203e0c-6ac6-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_PackageContent\SavedQueries\{df008db5-2899-4ecc-89fe-b546d1cea2f7}.xml" />
+    <Content Include="package\Entities\nckr_Package\Entity.xml" />
+    <Content Include="package\Entities\nckr_Package\FormXml\card\{cf1336a1-7b52-4813-915e-e6f745e8fbcc}.xml" />
+    <Content Include="package\Entities\nckr_Package\FormXml\card\{cf1336a1-7b52-4813-915e-e6f745e8fbcc}_managed.xml" />
+    <Content Include="package\Entities\nckr_Package\FormXml\main\{61738a2a-2524-4d3c-b9a7-417ae1408644}.xml" />
+    <Content Include="package\Entities\nckr_Package\FormXml\main\{61738a2a-2524-4d3c-b9a7-417ae1408644}_managed.xml" />
+    <Content Include="package\Entities\nckr_Package\FormXml\quick\{94976618-e898-45d6-8fc2-862097f49c44}.xml" />
+    <Content Include="package\Entities\nckr_Package\FormXml\quick\{94976618-e898-45d6-8fc2-862097f49c44}_managed.xml" />
+    <Content Include="package\Entities\nckr_Package\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{07a383b6-1f14-4071-af50-6c9a73a278d5}.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{2e20ec25-3133-48d5-bd58-b4701c4458ef}.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{388af809-f1a8-448e-ba21-792c7403044e}.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{423f963b-42d3-426a-94c2-1a7f5c2e3da7}.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{a3544b9c-0f9d-4a27-b3d3-7433376604e3}.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{cf06db12-b5bd-45c8-857c-c4f6205fb1c4}.xml" />
+    <Content Include="package\Entities\nckr_Package\SavedQueries\{efcf9079-81c3-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\Entity.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\FormXml\card\{4b87bace-837b-4548-bb04-e1dfdfa3aa98}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\FormXml\card\{4b87bace-837b-4548-bb04-e1dfdfa3aa98}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\FormXml\main\{86d7d8f7-85b5-4690-9cc3-e1c66be51180}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\FormXml\main\{86d7d8f7-85b5-4690-9cc3-e1c66be51180}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\FormXml\quick\{a48ed7b6-b35b-4cdd-aa45-290a89729196}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\FormXml\quick\{a48ed7b6-b35b-4cdd-aa45-290a89729196}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{09a446c0-42bf-4586-94f7-875f1d075597}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{21257094-93e6-4128-a928-a36709e24bb9}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{24eeaf7f-84c3-4aac-af95-3ea050e23522}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{402d8201-74d5-4151-af90-12474cee712f}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{93ad5b4b-23af-4602-9de7-7695eedffe8e}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{dbef68a6-9109-4211-978f-602d2f838839}.xml" />
+    <Content Include="package\Entities\nckr_SolutionArea\SavedQueries\{e6a17ca6-82cb-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\Entity.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\card\{76169be3-a0db-4e1b-8baa-8028544967bc}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\card\{76169be3-a0db-4e1b-8baa-8028544967bc}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\main\{52aa743e-d4a3-47ec-a4d8-019af5fd3de1}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\main\{52aa743e-d4a3-47ec-a4d8-019af5fd3de1}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\quickCreate\{5958208b-a3c5-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\quickCreate\{5958208b-a3c5-ea11-a812-000d3a25eeb6}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\quick\{9b421e0e-4661-4dae-a80d-2518aa8aa557}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\FormXml\quick\{9b421e0e-4661-4dae-a80d-2518aa8aa557}_managed.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{01e5c57f-90c6-41ab-b688-2a3adf1dbb47}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{1d236bf5-effc-42d2-ac69-a563f005351f}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{58f6d364-f5bd-439a-8c3e-3db3adab203f}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{984ee53c-2d13-4676-ba8e-a7ce8ae7c79f}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{9dc5ec49-6d0f-438f-9fc9-c4ff0203de30}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{ec02f0f2-6e4e-4556-8e06-0b39e68805c1}.xml" />
+    <Content Include="package\Entities\nckr_SolutionDependency\SavedQueries\{f5532a48-7ec3-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\Entity.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\FormXml\main\{0c6824f4-86a0-40ee-9ebf-727fc2ea9a62}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\FormXml\main\{0c6824f4-86a0-40ee-9ebf-727fc2ea9a62}_managed.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{1a711350-bd9f-4b67-967a-8c2362d7fdc1}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{25b05609-66d3-41b8-9559-06b46dd01d7b}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{2f6349ce-bb83-4dfb-9c59-e7d6a3a1752e}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{3f7836d6-fc4d-4a01-9927-1d50c9796e71}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{5fc4f7d7-1c66-49d7-9f38-6185e6be2242}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{6d2cae00-07e4-4265-97e3-f58a4edd8509}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{8b84aeac-50ce-464d-b8d0-6c5c2112ec22}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{ae1aa65a-6ec4-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{cb549330-6b05-4251-9750-4370d5b34a9d}.xml" />
+    <Content Include="package\Entities\nckr_solutionsetupprocess\SavedQueries\{d16061ad-04a5-4363-8457-269506c8db91}.xml" />
+    <Content Include="package\Entities\nckr_Solution\Entity.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\card\{50c896f3-9c8d-4dd9-aa2c-68d6b16143d1}.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\card\{50c896f3-9c8d-4dd9-aa2c-68d6b16143d1}_managed.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\main\{6f142f95-c04a-4a78-9f7b-4e9ec8c9a163}.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\main\{6f142f95-c04a-4a78-9f7b-4e9ec8c9a163}_managed.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\quickCreate\{9fd4ae31-70c4-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\quickCreate\{9fd4ae31-70c4-ea11-a812-000d3a25eeb6}_managed.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\quick\{7d14dd11-0008-496b-8e4e-2722cc70cb09}.xml" />
+    <Content Include="package\Entities\nckr_Solution\FormXml\quick\{7d14dd11-0008-496b-8e4e-2722cc70cb09}_managed.xml" />
+    <Content Include="package\Entities\nckr_Solution\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{070f17eb-0441-4e55-8de2-cda184f8e9de}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{254fe8ad-7bc3-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{795c60eb-5691-4af4-af2b-593cb229aeb0}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{9bb922a6-c368-47d1-aa49-c206aa87914b}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{c8b42172-4b35-4c70-907f-61fc768f8af8}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{d46604cb-b81d-4bdd-939d-1f8b17c8ee2d}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{f0386be7-e4c5-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Solution\SavedQueries\{fe4c6004-5c6d-49be-95b5-c95940159f67}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\Entity.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\card\{d65ffce1-6675-4073-b1b2-a0b9136bed75}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\card\{d65ffce1-6675-4073-b1b2-a0b9136bed75}_managed.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\main\{8fcb9b77-e84f-4dc5-8d83-cd3b7d7088a7}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\main\{8fcb9b77-e84f-4dc5-8d83-cd3b7d7088a7}_managed.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\quickCreate\{ebeaf141-27e9-ea11-a817-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\quickCreate\{ebeaf141-27e9-ea11-a817-000d3a25eeb6}_managed.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\quick\{3152a55a-ad13-498a-8345-cc43c978d26d}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\FormXml\quick\{3152a55a-ad13-498a-8345-cc43c978d26d}_managed.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{002302f7-01a6-45c4-854a-ee74662efe05}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{389176a8-86ad-483a-b62b-4db21fab8143}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{63bff833-7da1-424b-8830-80eb23f86583}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{74b1a4e7-d13f-4861-91f0-f0af94157c28}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{ab697253-26e9-ea11-a817-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{f561effa-49fc-4237-817c-6a123fd555c8}.xml" />
+    <Content Include="package\Entities\nckr_TenantKey\SavedQueries\{fae06e36-0e41-47b2-a0b7-2076fa5b9c23}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\Entity.xml" />
+    <Content Include="package\Entities\nckr_Tenant\FormXml\card\{4d75b903-f3f2-4bd7-9c15-b7410b437b00}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\FormXml\card\{4d75b903-f3f2-4bd7-9c15-b7410b437b00}_managed.xml" />
+    <Content Include="package\Entities\nckr_Tenant\FormXml\main\{e6ac4d27-bfa8-4e93-ba33-6f8c2c3591c9}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\FormXml\main\{e6ac4d27-bfa8-4e93-ba33-6f8c2c3591c9}_managed.xml" />
+    <Content Include="package\Entities\nckr_Tenant\FormXml\quick\{3588c001-df1a-4853-9989-dc0f22da8fbf}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\FormXml\quick\{3588c001-df1a-4853-9989-dc0f22da8fbf}_managed.xml" />
+    <Content Include="package\Entities\nckr_Tenant\RibbonDiff.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{0b20b07d-4d4e-47eb-9e58-3ebfbe2e240c}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{12c472bd-cbc2-ea11-a812-000d3a25eeb6}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{1f9806fb-b6ff-4ef2-9825-da477cb561fa}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{217babad-9d4e-eb11-a812-000d3a4807b9}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{3540e885-620f-468b-b566-0d6394ecfdde}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{470d6d30-4ba4-4a97-ba5f-205bbb428517}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{db1d29f6-33ee-4a47-9770-48a10c97e25f}.xml" />
+    <Content Include="package\Entities\nckr_Tenant\SavedQueries\{f23b59cd-5750-4510-aab6-feef6824ee8d}.xml" />
+    <Content Include="package\OptionSets\nckr_environmenttypecode.xml" />
+    <Content Include="package\OptionSets\nckr_logintype.xml" />
+    <Content Include="package\OptionSets\nckr_packagecontenttype.xml" />
+    <Content Include="package\Other\Customizations.xml" />
+    <Content Include="package\Other\Relationships.xml" />
+    <Content Include="package\Other\Relationships\BusinessUnit.xml" />
+    <Content Include="package\Other\Relationships\nckr_Environment.xml" />
+    <Content Include="package\Other\Relationships\nckr_Login.xml" />
+    <Content Include="package\Other\Relationships\nckr_Package.xml" />
+    <Content Include="package\Other\Relationships\nckr_Solution.xml" />
+    <Content Include="package\Other\Relationships\nckr_SolutionArea.xml" />
+    <Content Include="package\Other\Relationships\nckr_Tenant.xml" />
+    <Content Include="package\Other\Relationships\nckr_TenantKey.xml" />
+    <Content Include="package\Other\Relationships\Organization.xml" />
+    <Content Include="package\Other\Relationships\Owner.xml" />
+    <Content Include="package\Other\Relationships\ProcessStage.xml" />
+    <Content Include="package\Other\Relationships\SystemUser.xml" />
+    <Content Include="package\Other\Relationships\Team.xml" />
+    <Content Include="package\Other\Relationships\Workflow.xml" />
+    <Content Include="package\Other\Solution.xml" />
+    <Content Include="package\Roles\ISV Hub Admin.xml" />
+    <Content Include="package\Roles\ISV Hub Contributer.xml" />
+    <Content Include="package\Roles\ISV Hub Reader.xml" />
+    <Content Include="package\WebResources\nckr_icon\area.svg" />
+    <Content Include="package\WebResources\nckr_icon\area.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\environment.svg" />
+    <Content Include="package\WebResources\nckr_icon\environment.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\isv.svg" />
+    <Content Include="package\WebResources\nckr_icon\isv.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\login.svg" />
+    <Content Include="package\WebResources\nckr_icon\login.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\package.svg" />
+    <Content Include="package\WebResources\nckr_icon\package.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\solution.svg" />
+    <Content Include="package\WebResources\nckr_icon\solution.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\tenant.svg" />
+    <Content Include="package\WebResources\nckr_icon\tenant.svg.data.xml" />
+    <Content Include="package\WebResources\nckr_icon\tenantkey.svg" />
+    <Content Include="package\WebResources\nckr_icon\tenantkey.svg.data.xml" />
+    <Content Include="package\Workflows\PackageContent-SetrequiredvisibilitybasedonType-0BED73C4-6AC6-EA11-A812-000D3A25EEB6.xaml.data.xml" />
+    <Content Include="package\Workflows\SolutionSetupProcess-F8899057-40A4-43E9-9C74-479CF0FF66A8.xaml.data.xml" />
+    <Content Include="package\Workflows\Tenant-DeactivateKey-F1FCAA35-0693-408A-812D-FDFDDFF31C6C.xaml.data.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\coretools\CrmSvcUtil.exe.config" />
+    <None Include="bin\coretools\LicenseTerms.docx" />
+    <None Include="bin\coretools\pacTelemetryUpload.exe.config" />
+    <None Include="bin\coretools\SolutionPackager.exe.config" />
+    <None Include="packages.config" />
+    <None Include="spkl.json" />
+    <None Include="spkl\pack+import.bat" />
+    <None Include="spkl\unpack.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="package\Entities\nckr_Environment\Formulas\nckr_environment-nckr_devpassword.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_Environment\Formulas\nckr_environment-nckr_devusername.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_Environment\Formulas\nckr_environment-nckr_testpassword.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_Environment\Formulas\nckr_environment-nckr_testusername.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_SolutionArea\Formulas\nckr_solutionarea-nckr_solutioncount.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_solutionsetupprocess\Formulas\nckr_solutionsetupprocess-bpf_duration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_Solution\Formulas\nckr_solution-nckr_dependencycount.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Entities\nckr_Tenant\Formulas\nckr_tenant-nckr_environments.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\PackageContent-SetrequiredvisibilitybasedonType-0BED73C4-6AC6-EA11-A812-000D3A25EEB6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\SolutionSetupProcess-F8899057-40A4-43E9-9C74-479CF0FF66A8.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="package\Workflows\Tenant-DeactivateKey-F1FCAA35-0693-408A-812D-FDFDDFF31C6C.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7f343f57-f051-4fb9-b5bc-b3dc0e80f80b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nckr_username" select="1" icon="1" preview="1">
+        <row name="result" id="nckr_loginid">
+          <cell name="nckr_tenantid" width="100" />
+          <cell name="nckr_username" width="300" />
+          <cell name="nckr_password" width="200" />
+          <cell name="nckr_type" width="100" />
+          <cell name="nckr_comment" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nckr_login">
+          <attribute name="nckr_loginid" />
+          <attribute name="nckr_username" />
+          <order attribute="nckr_username" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="nckr_password" />
+          <attribute name="nckr_type" />
+          <attribute name="nckr_tenantid" />
+          <attribute name="nckr_comment" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

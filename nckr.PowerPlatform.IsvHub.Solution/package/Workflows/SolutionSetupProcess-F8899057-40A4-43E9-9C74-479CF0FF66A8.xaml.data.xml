@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{f8899057-40a4-43e9-9c74-479cf0ff66a8}" Name="Solution Setup Process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/SolutionSetupProcess-F8899057-40A4-43E9-9C74-479CF0FF66A8.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>nckr_solutionsetupprocess</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>nckr_Solution</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Solution Setup Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{ea1fc7e3-21c0-478b-b560-b22e7c4706fa}">
+      <label languagecode="1033" description="Development" />
+    </steplabels>
+    <steplabels id="{b6b840ea-ce08-4c03-beeb-ca228e7d3431}">
+      <label languagecode="1033" description="Dev Enviroment created" />
+    </steplabels>
+    <steplabels id="{e9a55728-9e90-474d-ae33-256c4259dd1d}">
+      <label languagecode="1033" description="Dev Environment Settings" />
+    </steplabels>
+    <steplabels id="{ab505b5d-16b9-4839-a435-0fcb423a8909}">
+      <label languagecode="1033" description="Dependencies definied" />
+    </steplabels>
+    <steplabels id="{19b0499f-cfec-4979-8c7a-994113b4b403}">
+      <label languagecode="1033" description="Repository" />
+    </steplabels>
+    <steplabels id="{63738e7f-e7ae-4b05-ac54-04f6a8490802}">
+      <label languagecode="1033" description="Repository created" />
+    </steplabels>
+    <steplabels id="{aed5a821-bfc6-4489-8b25-0522b1e15567}">
+      <label languagecode="1033" description="Build Pipeline" />
+    </steplabels>
+    <steplabels id="{79e2d965-c7a3-44ed-9948-2fed4b296258}">
+      <label languagecode="1033" description="Testing" />
+    </steplabels>
+    <steplabels id="{2353a154-d6af-4684-8dc2-d85110ad0906}">
+      <label languagecode="1033" description="Enviroment created" />
+    </steplabels>
+  </labels>
+</Workflow>

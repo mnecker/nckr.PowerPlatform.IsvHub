@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{389176a8-86ad-483a-b62b-4db21fab8143}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="nckr_key" select="1" icon="1" preview="1">
+        <row name="result" id="nckr_tenantkeyid">
+          <cell name="nckr_key" width="300" />
+          <cell name="nckr_generatedon" width="100" />
+          <cell name="nckr_usedon" width="100" />
+          <cell name="nckr_tenantid" width="212" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="nckr_tenantkey">
+          <attribute name="nckr_tenantkeyid" />
+          <attribute name="nckr_key" />
+          <order attribute="nckr_key" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="nckr_generatedon" />
+          <attribute name="nckr_usedon" />
+          <attribute name="nckr_tenantid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.8</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{a3946280-7a3f-4d8d-bd43-3fc053b353b2}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{2c93c9ec-1c3e-4dc0-8a71-572b0a24fe80}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c9b9ea53-37d2-4c26-be11-b973510a6e69}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{27c5ef1f-162b-494d-b3b8-8b261d9127eb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_url" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="nckr_url" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{782ceabd-e738-4a35-97de-dc8482155503}" locklevel="0">
+                        <labels>
+                          <label description="Dev User Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_devusername" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_devusername" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73149cde-0079-47ee-8202-e17d223798e3}" locklevel="0">
+                        <labels>
+                          <label description="Dev Password" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_devpassword" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_devpassword" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{889af72e-c7da-481f-af74-c8d580ccffab}" locklevel="0">
+                        <labels>
+                          <label description="Test Username" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_testusername" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_testusername" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b96dde3-8067-4038-8901-ae751a841280}" locklevel="0">
+                        <labels>
+                          <label description="Test Password" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_testpassword" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_testpassword" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="ac40bbdc-0235-44ce-b292-15328c9d43a3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="false">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{174f0586-3393-4611-bdc0-8265c93743bd}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nckr_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c90368f0-e62c-4143-a064-fa338a4e951e}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Logins" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

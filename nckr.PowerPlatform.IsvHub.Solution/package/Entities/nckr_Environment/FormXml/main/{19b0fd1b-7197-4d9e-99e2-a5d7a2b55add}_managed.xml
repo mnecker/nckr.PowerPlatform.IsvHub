@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{19b0fd1b-7197-4d9e-99e2-a5d7a2b55add}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{35f79266-1e3a-4903-87f3-40952f66885d}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c87eb4ed-bb45-4db7-90cf-1ff00cd867a4}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0fa3ec47-b140-4206-81a2-3969a30b0fcc}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nckr_name" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{51ff917b-21b1-4c9d-a4cd-6aa5bf4a224f}">
+                        <labels>
+                          <label description="New QV control 1594576614773" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1594576614773" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nckr_tenantid" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="nckr_tenant"&gt;3588c001-df1a-4853-9989-dc0f22da8fbf&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57005aa1-2157-4e38-bc7c-c7bed59e1113}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Tenant" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_tenantid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_tenantid" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{ef1e5d0f-3d14-4bf9-962f-14266b733038}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c41e04d-f802-49df-9399-c8b8f7fb7011}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_environmenttypecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="nckr_environmenttypecode" disabled="false" />
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{8be64a4e-4d70-4f64-93f0-653db4c22da2}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{def92565-b584-4a79-a522-f71a9c9f0b25}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_url" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="nckr_url" disabled="false" />
+                      </cell>
+                      <cell showlabel="true" locklevel="0" id="{c5469a79-92d1-42ab-ae40-eb6d321f2754}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_4" id="2fbc589d-85ad-4833-96e7-008cc567012e" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Logins" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0b557697-971c-4236-907d-28e29347661a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Dev Login" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_devloginid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_devloginid" disabled="false" uniqueid="{45589885-d209-0aa6-16ea-d0e9e09759ab}">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{54DD673E-D8B5-495C-91FE-C80DB23F6328}</DefaultViewId>
+                            <FilterRelationshipName>nckr_Login_TenantId_nckr_Tenant</FilterRelationshipName>
+                            <DependentAttributeName>nckr_environment.nckr_tenantid</DependentAttributeName>
+                            <DependentAttributeType>nckr_tenant</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{cacb599e-9212-4239-bfa4-d9a6db777154}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Test Login" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_testloginid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_testloginid" disabled="false" uniqueid="{8d37a788-4767-b47e-6b70-5c5152287d33}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{54DD673E-D8B5-495C-91FE-C80DB23F6328}</DefaultViewId>
+                            <FilterRelationshipName>nckr_Login_TenantId_nckr_Tenant</FilterRelationshipName>
+                            <DependentAttributeName>nckr_environment.nckr_tenantid</DependentAttributeName>
+                            <DependentAttributeType>nckr_tenant</DependentAttributeType>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{de3325a5-c62d-40b6-96f2-f0f6465b47f0}">
+                        <labels>
+                          <label description="New QV control 1594577209367" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1594577209367" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nckr_devloginid" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="nckr_login"&gt;350eff4a-aff8-46ce-ae9c-6f7da035285d&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{234466e1-2d29-4f91-8b96-083826a6553b}">
+                        <labels>
+                          <label description="New QV control 1594577224435" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1594577224435" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nckr_testloginid" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="nckr_login"&gt;350eff4a-aff8-46ce-ae9c-6f7da035285d&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{a9e52b74-4a2d-464c-98ef-3f59f349a93f}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{e8ac844c-2491-47dd-bfa3-32f05d00707b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c32ee87d-e6ae-4d73-a36a-cfa2b90a2742}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{8f848806-5a11-4817-917d-965676ee90e7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{91b4cf92-0b11-41af-a326-79544733c372}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7d543880-06e7-4489-ba98-705c19532353}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b61f4599-761b-448c-980f-2472f0895a4a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{268efe7c-88ff-46b5-b09e-cf9a18d88c80}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4738bf8e-289a-408a-b52a-bd3174d196e2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Environment" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

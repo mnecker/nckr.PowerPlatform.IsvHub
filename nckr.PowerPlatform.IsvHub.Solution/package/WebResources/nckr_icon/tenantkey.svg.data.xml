@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{49a66830-29e9-ea11-a817-000d3a25eeb6}</WebResourceId>
+  <Name>nckr_icon/tenantkey.svg</Name>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0.0.8</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/nckr_icontenantkeysvg49A66830-29E9-EA11-A817-000D3A25EEB6</FileName>
+</WebResource>

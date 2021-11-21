@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{3235106c-f0cc-ea11-a812-000d3a25eeb6}" name="ISV Hub Reader" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvReadnckr_Environment" level="Global" />
+    <RolePrivilege name="prvReadnckr_Login" level="Global" />
+    <RolePrivilege name="prvReadnckr_Package" level="Global" />
+    <RolePrivilege name="prvReadnckr_PackageContent" level="Global" />
+    <RolePrivilege name="prvReadnckr_Solution" level="Global" />
+    <RolePrivilege name="prvReadnckr_SolutionArea" level="Global" />
+    <RolePrivilege name="prvReadnckr_SolutionDependency" level="Global" />
+    <RolePrivilege name="prvReadnckr_solutionsetupprocess" level="Global" />
+    <RolePrivilege name="prvReadnckr_Tenant" level="Global" />
+    <RolePrivilege name="prvReadnckr_TenantKey" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

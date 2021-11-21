@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8bf48006-6ec6-ea11-a812-000d3a25eeb6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{83d34a61-05d0-4c2e-b78c-3d549b907947}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{52692e11-1e83-4e24-aafe-24c824643217}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9d7c6b1f-8a05-4684-a80a-aeb1f1e639dd}" showlabel="true" locklevel="0" labelid="{7459447e-acd5-4f45-a05a-939ffb38acd8}">
+                        <labels>
+                          <label description="Package" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_packageid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_packageid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82479a87-cd42-4f91-a88f-c8948769875a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="nckr_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30bf10f2-d5d1-4669-b2e8-7f1482ca632b}" showlabel="true" locklevel="0" labelid="{41cf123d-585d-481c-a645-ffec71864a94}">
+                        <labels>
+                          <label description="Included Solution" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_includedsolutionid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_includedsolutionid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{69f169f2-f301-49a8-ae40-5da0f961619d}" showlabel="true" locklevel="0" labelid="{8b5c50a0-1ccc-4bb7-871b-1a8acadf5cc9}">
+                        <labels>
+                          <label description="Included Package" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_includedpackageid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_includedpackageid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{d033551f-3d31-454c-ac85-25ad411d111e}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{03f71c7c-04b8-4f32-8d94-5fe98e85b1f0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{fe042e19-49de-45e0-9ee2-0310b74daebb}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{7190d6bc-6539-45e4-804d-969d641e4ead}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

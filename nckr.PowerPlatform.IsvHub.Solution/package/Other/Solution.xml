@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21104.142" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>ISVHub</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="ISV Hub" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.16</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>nckr</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="nckr" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>nckr</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>43452</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="nckr_environment" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_login" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_package" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_packagecontent" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_solution" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_solutionarea" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_solutiondependency" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_solutionsetupprocess" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_tenant" behavior="0" />
+      <RootComponent type="1" schemaName="nckr_tenantkey" behavior="0" />
+      <RootComponent type="9" schemaName="nckr_environmenttypecode" behavior="0" />
+      <RootComponent type="9" schemaName="nckr_logintype" behavior="0" />
+      <RootComponent type="9" schemaName="nckr_packagecontenttype" behavior="0" />
+      <RootComponent type="20" id="{3235106c-f0cc-ea11-a812-000d3a25eeb6}" behavior="0" />
+      <RootComponent type="20" id="{b2326acc-f0cc-ea11-a812-000d3a25eeb6}" behavior="0" />
+      <RootComponent type="20" id="{d3db34ea-f0cc-ea11-a812-000d3a25eeb6}" behavior="0" />
+      <RootComponent type="29" id="{0bed73c4-6ac6-ea11-a812-000d3a25eeb6}" behavior="0" />
+      <RootComponent type="29" id="{f1fcaa35-0693-408a-812d-fdfddff31c6c}" behavior="0" />
+      <RootComponent type="29" id="{f8899057-40a4-43e9-9c74-479cf0ff66a8}" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/area.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/environment.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/isv.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/login.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/package.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/solution.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/tenant.svg" behavior="0" />
+      <RootComponent type="61" schemaName="nckr_icon/tenantkey.svg" behavior="0" />
+      <RootComponent type="62" schemaName="nckr_ISVHub" behavior="0" />
+      <RootComponent type="80" schemaName="nckr_ISVHub" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="nckr_ISVHub" displayName="ISV Hub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FlipSwitch.FlipSwitchControl" displayName="MscrmControls.FlipSwitch.FlipSwitchControl" solution="CustomControlsCore (9.2.21104.00142)" />
+        <Dependent type="60" displayName="Quick Create" parentDisplayName="Solution" id="{9fd4ae31-70c4-ea11-a812-000d3a25eeb6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.ReadOnlyGrid" displayName="MscrmControls.Grid.ReadOnlyGrid" solution="BaseCustomControlsCore (9.0.2110.4017)" />
+        <Dependent type="60" displayName="Package" parentDisplayName="Package" id="{61738a2a-2524-4d3c-b9a7-417ae1408644}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.ReadOnlyGrid" displayName="MscrmControls.Grid.ReadOnlyGrid" solution="BaseCustomControlsCore (9.0.2110.4017)" />
+        <Dependent type="60" displayName="Solution" parentDisplayName="Solution" id="{6f142f95-c04a-4a78-9f7b-4e9ec8c9a163}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

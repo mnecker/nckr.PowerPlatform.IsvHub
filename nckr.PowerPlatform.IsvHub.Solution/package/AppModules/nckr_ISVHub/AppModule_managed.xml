@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>nckr_ISVHub</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="nckr_ISVHub" />
+    <AppModuleComponent type="29" id="{f8899057-40a4-43e9-9c74-479cf0ff66a8}" />
+    <AppModuleComponent type="1" schemaName="nckr_environment" />
+    <AppModuleComponent type="1" schemaName="expiredprocess" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="nckr_login" />
+    <AppModuleComponent type="26" id="{92561128-a1b1-43fb-b013-a1efb47306b5}" />
+    <AppModuleComponent type="26" id="{7f343f57-f051-4fb9-b5bc-b3dc0e80f80b}" />
+    <AppModuleComponent type="1" schemaName="nckr_package" />
+    <AppModuleComponent type="1" schemaName="nckr_packagecontent" />
+    <AppModuleComponent type="1" schemaName="nckr_solution" />
+    <AppModuleComponent type="1" schemaName="nckr_solutionarea" />
+    <AppModuleComponent type="1" schemaName="nckr_solutiondependency" />
+    <AppModuleComponent type="1" schemaName="nckr_solutionsetupprocess" />
+    <AppModuleComponent type="1" schemaName="team" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001026}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001027}" />
+    <AppModuleComponent type="1" schemaName="nckr_tenant" />
+    <AppModuleComponent type="1" schemaName="nckr_tenantkey" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{d3db34ea-f0cc-ea11-a812-000d3a25eeb6}" />
+    <Role id="{b2326acc-f0cc-ea11-a812-000d3a25eeb6}" />
+    <Role id="{3235106c-f0cc-ea11-a812-000d3a25eeb6}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="ISV Hub" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

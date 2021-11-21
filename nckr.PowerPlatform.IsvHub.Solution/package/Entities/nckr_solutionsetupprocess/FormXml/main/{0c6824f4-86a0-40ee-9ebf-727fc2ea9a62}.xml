@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0c6824f4-86a0-40ee-9ebf-727fc2ea9a62}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{ea1fc7e3-21c0-478b-b560-b22e7c4706fa}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{a8e4634a-cb88-4340-99ee-6afcff4c5c6a}">
+          <labels>
+            <label description="Development" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{85fce617-7e26-8001-1fdd-faf40ac8b5f3}" name="StageStep3_section1" labelid="{51c2e40c-3a93-40ab-902b-0f8ccce26762}">
+                  <labels>
+                    <label description="Development" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b6b840ea-ce08-4c03-beeb-ca228e7d3431}" showlabel="true" visible="true" labelid="{6c3118c4-2128-4eb4-852a-c53b4c36a4fe}">
+                        <labels>
+                          <label description="Dev Enviroment created" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_nckr_solution_nckr_solutionsetupprocess:nckr_devenvironmentid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="nckr_devenvironmentid" relationship="bpf_nckr_solution_nckr_solutionsetupprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9a55728-9e90-474d-ae33-256c4259dd1d}" showlabel="true" visible="true" labelid="{f9700765-afda-4b6d-81e9-9357af3c16b1}">
+                        <labels>
+                          <label description="Dev Environment Settings" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_nckr_solution_nckr_solutionsetupprocess:nckr_devenvironmentsettings" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="nckr_devenvironmentsettings" relationship="bpf_nckr_solution_nckr_solutionsetupprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab505b5d-16b9-4839-a435-0fcb423a8909}" showlabel="true" visible="true" labelid="{63edce46-45aa-4556-8f9c-c7f02e2af0be}">
+                        <labels>
+                          <label description="Dependencies definied" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_nckr_solution_nckr_solutionsetupprocess:nckr_dependenciesdefinied" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="nckr_dependenciesdefinied" relationship="bpf_nckr_solution_nckr_solutionsetupprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{19b0499f-cfec-4979-8c7a-994113b4b403}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{a978d3f5-8fb6-4c4e-afed-fcb9c7912bcb}">
+          <labels>
+            <label description="Repository" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{d2a5716f-37ac-c0e3-51b9-86a17c876062}" name="StageStep11_section1" labelid="{c09ab36c-3888-4193-8ef9-63a4e70f4fb4}">
+                  <labels>
+                    <label description="Repository" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{63738e7f-e7ae-4b05-ac54-04f6a8490802}" showlabel="true" visible="true" labelid="{a98a7e7a-e1b5-4382-a3a8-1ed2a8a31a0c}">
+                        <labels>
+                          <label description="Repository created" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_nckr_solution_nckr_solutionsetupprocess:nckr_repositoryurl" classid="{71716b6c-711e-476c-8ab8-5d11542bfb47}" datafieldname="nckr_repositoryurl" relationship="bpf_nckr_solution_nckr_solutionsetupprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{aed5a821-bfc6-4489-8b25-0522b1e15567}" showlabel="true" visible="true" labelid="{990a40f5-fff1-4308-b1e8-2cb0c453e20a}">
+                        <labels>
+                          <label description="Build Pipeline" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_nckr_solution_nckr_solutionsetupprocess:nckr_buildpipeline" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="nckr_buildpipeline" relationship="bpf_nckr_solution_nckr_solutionsetupprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{79e2d965-c7a3-44ed-9948-2fed4b296258}" name="StageStep17" locklevel="0" expanded="true" visible="false" labelid="{7a7d8f31-5b62-4693-be7d-9efb48fe24c5}">
+          <labels>
+            <label description="Testing" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{0e04dc55-2256-29fb-1c30-77e67acecc77}" name="StageStep17_section1" labelid="{6d941dbc-e4eb-4df2-b504-5bc4ff52e792}">
+                  <labels>
+                    <label description="Testing" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{2353a154-d6af-4684-8dc2-d85110ad0906}" showlabel="true" visible="true" labelid="{b99fd7e6-9667-4a87-af38-9da830f8a3e3}">
+                        <labels>
+                          <label description="Enviroment created" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_nckr_solution_nckr_solutionsetupprocess:nckr_testenvironmentid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="nckr_testenvironmentid" relationship="bpf_nckr_solution_nckr_solutionsetupprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

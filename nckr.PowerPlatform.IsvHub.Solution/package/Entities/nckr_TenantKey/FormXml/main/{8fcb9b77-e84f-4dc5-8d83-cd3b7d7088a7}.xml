@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8fcb9b77-e84f-4dc5-8d83-cd3b7d7088a7}</formid>
+    <IntroducedVersion>1.0.0.8</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{bed449f3-f06c-442b-a4db-8c5f60f62ebc}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3407d01b-f608-4153-8ab8-63d77beeb93d}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1ed887d9-3be0-41fe-9b98-61177f77b112}">
+                        <labels>
+                          <label description="Key" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_key" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nckr_key" />
+                      </cell>
+                      <cell id="{4eb23b04-b75a-457c-a3ed-f7c032c43ea6}" locklevel="0">
+                        <labels>
+                          <label description="Used On" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_usedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="nckr_usedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{123e1a84-b56b-42cf-b91d-318884f1496b}" locklevel="0">
+                        <labels>
+                          <label description="Generated On" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_generatedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="nckr_generatedon" disabled="false" />
+                      </cell>
+                      <cell id="{0277c622-30f8-4bf6-96c8-c9b4c21e4539}" locklevel="0">
+                        <labels>
+                          <label description="Tenant" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_tenantid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_tenantid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{bcb54e8f-e1cf-4630-9c6f-38c64e9c21ae}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{c8fcf142-93fb-443c-875c-5eeba0e10ee3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1cd841d7-a2a2-4103-88c8-915a98d8db5c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{28f7746f-02f9-4bb5-b611-804ab22eda81}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f7000132-6056-4fd9-b1aa-046f522d7390}" locklevel="0">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+            </cell>
+            <cell id="{4fd3a628-06ed-42e7-bc3c-95df41fceeca}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{8102f637-3c00-4732-b8ea-b3efee3e689b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{136800bc-c381-4beb-8350-b091ac46fe96}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7f404aa0-6323-4e43-8556-6d88217fd241}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6fd9da7e-ca91-4fa2-8829-92ba3af0a50c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Tenant Key" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

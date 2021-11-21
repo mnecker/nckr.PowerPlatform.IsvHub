@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9fd4ae31-70c4-ea11-a812-000d3a25eeb6}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{24cfaed5-ba89-4504-b75d-21457a1f8b6c}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{1862faa9-8611-4add-ad9b-e16198382763}">
+                  <labels>
+                    <label description="Solution" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c8007733-1c0f-4289-b3ef-33258540e8b8}" showlabel="true" locklevel="0" labelid="{3de6c3fe-fbfc-497f-a392-82e9d4aa8b7e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_name" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{9c54fec0-bf0c-4fe4-9f41-7ab3b7bcde14}">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b8444af3-add0-4508-a62a-335100c13af1}" showlabel="false" locklevel="0" rowspan="10" labelid="{6d567b28-f1ca-491f-be1a-9e4081d38534}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="nckr_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{a71bf8a0-dcb7-4e94-94ab-1ade8b81c7cb}" labelid="{82999883-832d-4153-baf8-3f0ffbf38044}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="true" labelid="{9e0647ce-8f3e-4cf1-97de-64dd20d39c7b}">
+                  <labels>
+                    <label description="Technical" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e1478cf8-e51f-4de4-8433-7b68848d43a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Dev Environment Settings" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_devenvironmentsettings" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="nckr_devenvironmentsettings" disabled="false" uniqueid="{6b0fdf96-9d20-46c8-beb0-e714403d5920}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b0ed34dd-cad1-4642-91e5-54f4f5ac5e31}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Repository URL" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_repositoryurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="nckr_repositoryurl" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b8fdb2f3-abfe-419c-b871-e3b9c02063a3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Build Pipeline" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_buildpipeline" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="nckr_buildpipeline" disabled="false" uniqueid="{a9de31d9-fed2-4a0c-a473-fd749061d00c}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{6b0fdf96-9d20-46c8-beb0-e714403d5920}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>nckr_devenvironmentsettings</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>nckr_devenvironmentsettings</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>nckr_devenvironmentsettings</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>nckr_devenvironmentsettings</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{a9de31d9-fed2-4a0c-a473-fd749061d00c}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>nckr_buildpipeline</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>nckr_buildpipeline</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>nckr_buildpipeline</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>nckr_buildpipeline</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

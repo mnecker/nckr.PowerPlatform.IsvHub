@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{16223b14-efcc-ea11-a812-000d3a25eeb6}</formid>
+    <IntroducedVersion>1.0.0.4</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{1bc16636-5c8e-46ee-a3e0-1ea999cd488c}">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{597837b8-eb1e-4fba-b8f9-2da0569dbad5}">
+                  <labels>
+                    <label description="Environment" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3e994ff9-bd19-41c1-a4cc-66a8577b7b4e}" showlabel="true" locklevel="0" labelid="{8cee161a-fb79-41b3-a4ae-08ea5d2c52dc}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4341eb7b-34f8-43df-9459-fe6e72b518b8}" showlabel="true" locklevel="0" labelid="{6f364a16-a92d-4db0-b106-46efdfb1ade8}">
+                        <labels>
+                          <label description="Tenant" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_tenantid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_tenantid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cf5508e9-a53b-4cc8-81b7-1aa4173caf10}" showlabel="true" locklevel="0" labelid="{cc572083-b358-41a2-8091-923e2e42efa4}">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_environmenttypecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="nckr_environmenttypecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{176ccc60-63ab-4295-9825-ba3fe54de161}" showlabel="true" locklevel="0" labelid="{8ab573d4-da9e-4b98-8063-767a7870cc6b}">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_url" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="nckr_url" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{40dc9753-69a5-45d5-a971-edcd1fafedf1}">
+                  <labels>
+                    <label description="Logins" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b8a182ee-f80f-4ca1-9fcf-e27fbaa9d5fa}" showlabel="true" locklevel="0" labelid="{e275d82b-2341-49c1-81cc-8bf282ae9d46}">
+                        <labels>
+                          <label description="Dev Login" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_devloginid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_devloginid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13c73895-fabb-4c1f-9e40-6986e8aa58d3}" showlabel="true" locklevel="0" labelid="{0a8af084-17eb-47eb-bbf7-291dc4efa35f}">
+                        <labels>
+                          <label description="Test Login" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_testloginid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_testloginid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" visible="false" labelid="{a03d6e49-0559-4e8b-ac9e-3dffb89e7df5}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{ad9e66e9-9fe4-4ec3-a0f1-bb84edff029a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description=" quick create form" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

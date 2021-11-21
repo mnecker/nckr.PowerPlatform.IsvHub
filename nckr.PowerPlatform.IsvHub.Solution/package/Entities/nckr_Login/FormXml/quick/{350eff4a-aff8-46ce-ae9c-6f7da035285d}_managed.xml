@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{350eff4a-aff8-46ce-ae9c-6f7da035285d}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7e43a02a-c3da-4325-b959-4822d7118ddf}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{634bdceb-58c3-4bb2-aa8f-8ede1bc286e5}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{72b67af5-889c-4038-92ae-03513a7ccdba}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Username" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_username" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_username" disabled="false" uniqueid="{40e850c7-39cc-c94d-a21d-9b87cc6d144b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d84b5230-f095-4ff1-91c8-78b60abec4b8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Password" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_password" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="nckr_password" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="{7e43a02a-c3da-4325-b959-4822d7118ddf}_section_2" showlabel="false" showbar="false" locklevel="0" id="{0ac240d1-4117-02e8-284a-557430c9444b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" visible="false">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9237a528-a7ee-43aa-a1b5-10ac1fdec8c8}" visible="false" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Username" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_username" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nckr_username" uniqueid="{61b9346b-8835-e709-6307-480a41d6d879}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{77a9218e-0ba4-47f7-bc66-48402eeeab9c}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Login Details" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6f142f95-c04a-4a78-9f7b-4e9ec8c9a163}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{d299a340-fbbd-4efe-9e02-579f5e537012}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f7400e0e-de65-4f1a-9df6-a982705a70c5}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9cfe7740-5ca1-458c-b13a-c12f2440d772}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="nckr_name" />
+                      </cell>
+                      <cell id="{6f464b10-af0c-4956-ad38-c9ba33860894}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Area" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_solutionareaid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_solutionareaid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7f1326f1-a98f-4a50-b986-14ae7eedb73b}" showlabel="true" locklevel="0" rowspan="8">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="nckr_description" disabled="false" />
+                      </cell>
+                      <cell id="{1024e62f-77e6-47e9-ae6e-6731865b86c0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Repository URL" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_repositoryurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="nckr_repositoryurl" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{37756df4-e6ba-40ab-babc-9b02dcb02c60}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{d3a5bca0-af6e-4bb8-bc2e-b2f577a30d91}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{f908e25b-65f9-401f-84e6-4b8763ad8406}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{00ce1b69-b7db-4d77-a27c-009eeec9057e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{ad5acfe3-ddd0-4b8f-ac29-03347f81a8c8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{5cf290ce-4be8-48dd-90aa-3afb45415f0f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="true" locklevel="0" id="{83390e8a-94e6-4af8-8503-9ae5a64df261}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_4" id="c7f803b3-9fb1-4388-b095-8bd32442763c" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Environments" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bb018f4a-fbee-4783-9204-7418e618c97c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Dev Environment" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_devenvironmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_devenvironmentid" disabled="false" />
+                      </cell>
+                      <cell id="{0c27a9e7-824c-41c6-86d5-f2568538eb0b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Test Environment" languagecode="1033" />
+                        </labels>
+                        <control id="nckr_testenvironmentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="nckr_testenvironmentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{6509e51c-3e86-41b5-970a-cb043ad99cde}">
+                        <labels>
+                          <label description="New QV control 1594577697216" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1594577697216" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nckr_devenvironmentid" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="nckr_environment"&gt;a3946280-7a3f-4d8d-bd43-3fc053b353b2&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell showlabel="false" locklevel="0" id="{ca6ae3fc-ea77-4258-a710-3de520ffc510}">
+                        <labels>
+                          <label description="New QV control 1594577708060" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1594577708060" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="nckr_testenvironmentid" disabled="false">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="nckr_environment"&gt;a3946280-7a3f-4d8d-bd43-3fc053b353b2&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="5bf56357-f7c5-4414-b99d-ccf3fb3d835c" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Dependencies" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_1" id="417ef8f5-7508-433b-ae6b-ea15e4d2b0d0" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Dependencies" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{c6f1ce67-4567-439c-9553-6810aca14619}" rowspan="4" colspan="1">
+                        <labels>
+                          <label description="New SG control 1594711459956" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{488555b7-11e3-329c-c10c-1a3615dc2895}">
+                          <parameters>
+                            <TargetEntityType>nckr_solutiondependency</TargetEntityType>
+                            <ViewId>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</ViewId>
+                            <ViewIds>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>nckr_SolutionDependency_SolutionId_nckr_S</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_3" id="aa9197c0-5e1d-4da9-a5d4-d32a01d09332" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="Solutions depended on this Solution" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell showlabel="false" locklevel="0" id="{c10a648a-4653-428b-b110-94a2bfc63244}" rowspan="4" colspan="1" auto="true">
+                        <labels>
+                          <label description="New SG control 1594711559152" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{4ad68612-34c3-0b2a-e840-b267862e5bed}">
+                          <parameters>
+                            <TargetEntityType>nckr_solutiondependency</TargetEntityType>
+                            <ViewId>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</ViewId>
+                            <ViewIds>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>nckr_SolutionDependency_DependendonSoluti</RelationshipName>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0dcf2649-84cc-4b08-90d7-e7f187cf981c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{32db4013-09ba-4eef-ac33-5ce2c360bee2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{dccdb514-dede-4218-888f-b16ad956aca5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{20ce414a-3ec1-4e74-a425-d67611bd492b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d18113ec-6818-4b96-a3f8-466dac1149ec}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Dependency Count" languagecode="1033" />
+              </labels>
+              <control id="header_nckr_dependencycount" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="nckr_dependencycount" disabled="false" />
+            </cell>
+            <cell id="{18a61162-653e-4311-bb51-007c401e3d40}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{92c09e79-29d4-4e24-aa48-7bab111c5120}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b1ff92e2-f898-4e06-827c-6af603445139}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{518d5c16-30ea-4031-b8c2-f5bb63650717}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{81bdc2c8-c321-4cc2-a0b4-9707d61b137e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{488555b7-11e3-329c-c10c-1a3615dc2895}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>nckr_SolutionDependency_SolutionId_nckr_S</RelationshipName>
+                <TargetEntityType>nckr_solutiondependency</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{4ad68612-34c3-0b2a-e840-b267862e5bed}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" formFactor="1">
+            <parameters />
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.ReadOnlyGrid">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>nckr_SolutionDependency_DependendonSoluti</RelationshipName>
+                <TargetEntityType>nckr_solutiondependency</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{9DC5EC49-6D0F-438F-9FC9-C4FF0203DE30}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+              <EnableJumpBar static="true" type="Enum">no</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Solution" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

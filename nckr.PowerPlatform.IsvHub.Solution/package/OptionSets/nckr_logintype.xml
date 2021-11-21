@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="nckr_logintype" localizedName="Login Type" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Login Type" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="434520000">
+      <labels>
+        <label description="Admin" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="434520001">
+      <labels>
+        <label description="Tester" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="434520002">
+      <labels>
+        <label description="Developer" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="434520003">
+      <labels>
+        <label description="Build" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
